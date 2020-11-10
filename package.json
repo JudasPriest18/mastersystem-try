@@ -1,23 +1,22 @@
 {
   "name": "test-site",
   "version": "1.0.0",
-  "description": "trying to develope",
+  "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development webpack  --mode  development",
-    "build": "cross-env NODE_ENV=production webpack  --mode  production",
-    "watch": "cross-env NODE_ENV=development webpack  --mode  development --watch",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JudasPriest18/trying-to-develop/find/main"
+    "url": "git+https://github.com/JudasPriest18/trying-to-develop.git"
   },
   "keywords": [
-    "site",
-    "develope"
+    "test"
   ],
   "author": "JudasPriest18 <Dimastii98@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JudasPriest18/trying-to-develop/issues"
+  },
+  "homepage": "https://github.com/JudasPriest18/trying-to-develop#readme"
 }
