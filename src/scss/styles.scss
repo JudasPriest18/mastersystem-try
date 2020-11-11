@@ -4,32 +4,32 @@ div{
     display: block;
 }
 .img-cover{
-object-fit: cover;
-position: absolute;
-width: 1920px;
-height: 772px;
-left: 0px;
-top: 0px;
-z-index: 0;
-background:rgba(0, 94, 208, 1);
-box-shadow: inset 10px -13px 30px rgba(51, 51, 51, 0.15);
+    object-fit: cover;
+    position: absolute;
+    width: 1920px;
+    height: 772px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    background:rgba(0, 94, 208, 1);
+    box-shadow: inset 10px -13px 30px rgba(51, 51, 51, 0.15);
 
 }
 
 h1{
     position: absolute;
-width: 480px;
-height: 125px;
-left: 370px;
-top: 209px;
+    width: 480px;
+    height: 125px;
+    left: 370px;
+    top: 209px;
 
-font-family: PT Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 62px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 p.term{
     position: absolute;
@@ -46,109 +46,151 @@ p.term{
     opacity: 0.7;
 }
 .icon{
-position: absolute;
-width: 142px;
-height: 23px;
-left: 408.5px;
-top: 32px;
-font-family: Circe;
-font-size: 18px;
-line-height: 27px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+    position: absolute;
+    width: 142px;
+    height: 23px;
+    left: 408.5px;
+    top: 32px;
+    font-family: Circe;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 .img-icon{
-position: absolute;
-left:370.5px;
-right:1524.5px;
-top: 32.5px;
-bottom:718.5px;
+    position: absolute;
+    left:370.5px;
+    right:1524.5px;
+    top: 32.5px;
+    bottom:718.5px;
 }
-.btn{
-position: absolute;
-width:88px;
-height: 32px;
-left: 1462px;
-top: 28px;
-opacity: 0.4;
-border-color: #FFFFFF;
-border-style: solid;
-border-width: 1px 1px 1px 1px;
-border-radius: 4px;
+.boton{
+    position: absolute;
+    width:88px;
+    height: 32px;
+    left: 1462px;
+    top: 28px;
+    opacity: 0.4;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 4px;
 }
-.btn-letters{    
-left: 1490px;
-top: 34px;
-position: absolute;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-color: #FFFFFF;
-text-decoration: none;
+.boton-letters{    
+    left: 1490px;
+    top: 34px;
+    position: absolute;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 #link1{
-position: absolute;
-width: 41px;
-height: 18px;
-left: 1154px;
-top: 34px;
-text-decoration: none;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 19px;
-color: #FFFFFF;    
+    position: absolute;
+    width: 41px;
+    height: 18px;
+    left: 1154px;
+    top: 34px;
+    text-decoration: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;    
 }
 #link2{
-position: absolute;
-width: 41px;
-height: 18px;
-left: 1235px;
-top: 34px;
-text-decoration: none;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 19px;
-padding-right: 40px;
-color: #FFFFFF;
+    position: absolute;
+    width: 41px;
+    height: 18px;
+    left: 1235px;
+    top: 34px;
+    text-decoration: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    padding-right: 40px;
+    color: #FFFFFF;
 }
 #link3{
-position: absolute;
-width: 61px;
-height: 18px;
-left: 1361px;
-top: 34px;
-text-decoration: none;
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 19px;
-color: #FFFFFF;
-}
+    position: absolute;
+    width: 61px;
+    height: 18px;
+    left: 1361px;
+    top: 34px;
+    text-decoration: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
 .form-control{    
-position: absolute;
-width: 280px;
-height: 48px;
-left: 370px;
-right: 1370px;
-top: 475px;
-background: #FFFFFF;
-border-radius: 8px;
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 370px;
+    right: 1370px;
+    top: 475px;
+    background: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
 }
 .btn{
-position: absolute;
-width: 191px;
-height: 48px;
-left: 650px;
-top: 475px;
-background: #FF6100;
-border-radius: 0px 8px 8px 0px;
+    position: absolute;
+    width: 191px;
+    height: 48px;
+    left: 650px;
+    top: 475px;
+    background: #FF6100;
+    border-radius: 0px 8px 8px 0px;
+    }
+.try{
+    width: 151px;
+    height: 20px;
+    left: 670px;
+    top: 487px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    vertical-align: Center;
+}
+.enter{
+    position: absolute;
+    width: 193px;
+    height: 20px;
+    left: 370px;
+    top: 543px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
+}
+.enter1{
+    position: absolute;
+    width: 193px;
+    height: 20px;
+    left: 530px;
+    top: 543px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FF6100;
+    text-decoration: none;
 }

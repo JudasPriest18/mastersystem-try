@@ -9991,7 +9991,7 @@ p.term {
   bottom: 718.5px;
 }
 
-.btn {
+.boton {
   position: absolute;
   width: 88px;
   height: 32px;
@@ -10004,7 +10004,7 @@ p.term {
   border-radius: 4px;
 }
 
-.btn-letters {
+.boton-letters {
   left: 1490px;
   top: 34px;
   position: absolute;
@@ -10070,7 +10070,7 @@ p.term {
   right: 1370px;
   top: 475px;
   background: #FFFFFF;
-  border-radius: 8px;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .btn {
@@ -10081,4 +10081,49 @@ p.term {
   top: 475px;
   background: #FF6100;
   border-radius: 0px 8px 8px 0px;
+}
+
+.try {
+  width: 151px;
+  height: 20px;
+  left: 670px;
+  top: 487px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  vertical-align: Center;
+}
+
+.enter {
+  position: absolute;
+  width: 193px;
+  height: 20px;
+  left: 370px;
+  top: 543px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: white;
+}
+
+.enter1 {
+  position: absolute;
+  width: 193px;
+  height: 20px;
+  left: 530px;
+  top: 543px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FF6100;
+  text-decoration: none;
 }
