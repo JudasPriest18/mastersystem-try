@@ -1,5 +1,9 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './fonts.css';
 
+body{
+    font-family: 'PTSans', sans-serif;
+}
 div{
     display: block;
 }
@@ -28,7 +32,6 @@ h1{
     left: 370px;
     top: 209px;
 
-    font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -42,7 +45,7 @@ p.term{
     height: 74px;
     left: 370px;
     top: 356px;
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -56,7 +59,7 @@ p.term{
     height: 23px;
     left: 408.5px;
     top: 32px;
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 18px;
     line-height: 27px;
     display: flex;
@@ -88,7 +91,7 @@ p.term{
     left: 1490px;
     top: 34px;
     position: absolute;
-    font-family: PT Sans;
+ 
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -102,7 +105,7 @@ p.term{
     left: 1154px;
     top: 34px;
     text-decoration: none;
-    font-family: PT Sans;
+  
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -116,7 +119,7 @@ p.term{
     left: 1235px;
     top: 34px;
     text-decoration: none;
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -131,7 +134,7 @@ p.term{
     left: 1361px;
     top: 34px;
     text-decoration: none;
-    font-family: PT Sans;
+ 
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -158,19 +161,22 @@ p.term{
     border-radius: 0px 8px 8px 0px;
     }
 .try{
+    position: absolute;
     width: 151px;
     height: 20px;
     left: 670px;
-    top: 487px;
-    font-family: PT Sans;
-    font-size: 16px;
+    top: 489px;
+    z-index: 5;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 19px;
-    letter-spacing: 0em;
+
+    display: flex;
+    align-items: center;
     text-align: center;
+
     color: #FFFFFF;
-    vertical-align: Center;
 }
 .enter{
     position: absolute;
@@ -178,7 +184,7 @@ p.term{
     height: 20px;
     left: 370px;
     top: 543px;
-    font-family: PT Sans;
+ 
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -191,7 +197,7 @@ p.term{
     height: 20px;
     left: 527px;
     top: 543px;
-    font-family: PT Sans;
+ 
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -214,7 +220,7 @@ a:hover{
     box-shadow: inset 10px -13px 30px rgba(51, 51, 51, 0.30);
 }
 .blue{
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
@@ -223,7 +229,7 @@ a:hover{
     color: #005ED0;
 }
 .grey{
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
@@ -235,7 +241,7 @@ a:hover{
     opacity: 0.5;
 }
 .black{
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
@@ -325,7 +331,7 @@ a:hover{
     height: 18.59px;
     left: 1120px;
     top: 389.84px;
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 12px;
     line-height: 17px;
     color: #FFFFFF;
@@ -337,7 +343,7 @@ a:hover{
     height: 18.59px;
     left: 1120px;
     top: 420.46px;
-     font-family: Circe;
+     font-family: 'Cicle-Regular', sans-serif;
     font-size: 12px;
     line-height: 17px;
     color: #FFFFFF;
@@ -350,7 +356,7 @@ a:hover{
     height: 18.59px;
     left: 1120px;
     top: 451.07px;   
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 12px;
     line-height: 17px;
     z-index: 6;
@@ -381,7 +387,7 @@ h2{
     height: 62px;
     left: 660px;
     top: 938px;
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -397,7 +403,7 @@ h2{
     height: 24px;
     left: 770px;
     top: 1006px;
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -464,7 +470,7 @@ h2{
     left: 430px;
     top: 1213px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -483,7 +489,7 @@ h2{
     left: 730px;
     top: 1213px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -502,7 +508,7 @@ h2{
     left: 1030px;
     top: 1212px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -522,7 +528,7 @@ h2{
     left: 1330px;
     top: 1212px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -541,7 +547,7 @@ h2{
     left: 430px;
     top: 1247px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -561,7 +567,6 @@ h2{
     left: 730px;
     top: 1247px;
     
-    font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -582,7 +587,7 @@ height: 20px;
 left: 1030px;
 top: 1246px;
 
-font-family: PT Sans;
+
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -602,7 +607,7 @@ color: #5F5F5F;
     left: 1330px;
     top: 1246px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -629,7 +634,7 @@ height: 52px;
 left: 370px;
 top: 1698px;
 
-font-family: PT Sans;
+
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
@@ -644,7 +649,7 @@ height: 196px;
 left: 370px;
 top: 1788px;
 
-font-family: PT Sans;
+
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -683,20 +688,25 @@ opacity: 0.7;
     border-radius: 8px;
 }
 .try1{
+    position: absolute;
     width: 83px;
     height: 20px;
-    left: 390px;
-    top: 2025px;
-    font-family: PT Sans;
-    font-size: 16px;
+    left: 389px;
+    top: 2023.5px;
+    
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 19px;
-    letter-spacing: 0em;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
     text-align: center;
+    
     color: #FFFFFF;
-    vertical-align: Center;
-    z-index: 5;
+    
+    border-radius: 4px;
 }
 #img_auto{
     position: absolute;
@@ -721,7 +731,7 @@ h4{
     left: 1047px;
     top: 2452px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -736,7 +746,7 @@ h4{
     left: 1047px;
     top: 2544px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -759,20 +769,26 @@ h4{
     border-radius: 8px;
 }
 .try2{
+    position: absolute;
     width: 83px;
     height: 20px;
     left: 1065px;
-    top: 2669px; 
-    font-family: PT Sans;
-    font-size: 16px;
+    top: 2667.5px;
+
+
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 19px;
-    letter-spacing: 0em;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
     text-align: center;
+
     color: #FFFFFF;
-    vertical-align: Center;
-    z-index: 5;
+
+    border-radius: 4px
 }
 #pass{
     position: absolute;
@@ -790,7 +806,7 @@ h5{
     height: 59px;
     left: 613px;
     top: 2348px;
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 40px;
     line-height: 59px;
     color: #333333;
@@ -803,7 +819,7 @@ h5{
     left: 566px;
     top: 2449px;
 
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 10px;
     line-height: 15px;
     color: #333333;
@@ -816,7 +832,7 @@ h5{
     left: 566px;
     top: 2521px;
 
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 10px;
     line-height: 15px;
     color: #333333;
@@ -833,16 +849,18 @@ h5{
     border-radius: 8px;
 }
 .try3{
+    font-family: 'Cicle-Regular', sans-serif;
+    position: absolute;
     width: 140px;
     height: 20px;
     left: 661px;
     top: 2613px;
-    font-family: Circe;
     font-size: 14px;
     line-height: 20px;
-    color: #FFFFFF;
-    vertical-align: Center;
-    z-index: 5;
+    /* identical to box height, or 143% */
+
+
+color: #FFFFFF;
 }
 #forgott{
     position: absolute;
@@ -851,7 +869,7 @@ h5{
     left: 682px;
     top: 2663px;
     z-index: 3;
-    font-family: Circe;
+    font-family: 'Cicle-Regular', sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #005ED0;
@@ -893,7 +911,7 @@ h5{
     left: 370px;
     top: 2933px;
 
-    font-family: PT Sans;
+   
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -908,7 +926,7 @@ h5{
     left: 370px;
     top: 3051px;
 
-    font-family: PT Sans;
+   
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -987,8 +1005,7 @@ h5{
     height: 24px;
     left: 770px;
     top: 3023px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1007,7 +1024,7 @@ h5{
     left: 1020px;
     top: 3023px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1025,8 +1042,7 @@ h5{
     height: 24px;
     left: 1270px;
     top: 3023px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1046,7 +1062,6 @@ h5{
     left: 770px;
     top: 3231px;
     
-    font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1064,8 +1079,7 @@ h5{
     height: 24px;
     left: 1020px;
     top: 3231px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1083,8 +1097,7 @@ h5{
     height: 24px;
     left: 1270px;
     top: 3231px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1103,8 +1116,7 @@ h5{
     height: 24px;
     left: 770px;
     top: 3439px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1123,8 +1135,7 @@ h5{
     height: 24px;
     left: 1020px;
     top: 3439px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1142,8 +1153,7 @@ h5{
     height: 24px;
     left: 1270px;
     top: 3439px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1162,8 +1172,7 @@ h5{
     height: 38px;
     left: 770px;
     top: 3053px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1181,8 +1190,7 @@ h5{
     height: 38px;
     left: 1020px;
     top: 3053px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1200,8 +1208,7 @@ h5{
     height: 38px;
     left: 1270px;
     top: 3053px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1220,7 +1227,6 @@ h5{
     left: 770px;
     top: 3261px;
     
-    font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1238,8 +1244,7 @@ h5{
     height: 38px;
     left: 1020px;
     top: 3261px;
-    
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1258,7 +1263,7 @@ h5{
     left: 1270px;
     top: 3261px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1277,7 +1282,7 @@ h5{
     left: 770px;
     top: 3469px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1297,7 +1302,7 @@ h5{
     left: 1020px;
     top: 3469px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1316,7 +1321,7 @@ h5{
     left: 1270px;
     top: 3469px;
     
-    font-family: PT Sans;
+ 
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1363,7 +1368,7 @@ height: 42px;
 left: 700px;
 top: 3752px;
 
-font-family: PT Sans;
+
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -1395,7 +1400,7 @@ opacity: 0.8;
     left: 930px;
     top: 3824px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1415,7 +1420,7 @@ opacity: 0.8;
     left: 940px;
     top: 3846px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1448,7 +1453,7 @@ opacity: 0.8;
     left: 930px;
     top: 3954px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1475,7 +1480,7 @@ opacity: 0.8;
     left: 745px;
     top: 4168px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -1493,7 +1498,7 @@ opacity: 0.8;
     left: 870px;
     top: 4236px;
     
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1519,20 +1524,25 @@ opacity: 0.8;
     border-radius: 8px;
 }
 .try4{
+    position: absolute;
     width: 83px;
     height: 20px;
-    left: 919px;
-    top: 4307px;
-    font-family: PT Sans;
-    font-size: 16px;
+    left: 930px;
+    top: 4305px;
+
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 19px;
-    letter-spacing: 0em;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
     text-align: center;
+
     color: #FFFFFF;
-    vertical-align: Center;
-    z-index: 5;
+
+    border-radius: 4px;
 }
 .img-cover1{
     object-fit: cover;
@@ -1559,7 +1569,7 @@ opacity: 0.8;
 
 }
 .col{
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1570,7 +1580,7 @@ opacity: 0.8;
     opacity: 0.6;
 }
 .col1{
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1607,7 +1617,7 @@ opacity: 0.8;
     left: 370px;
     top: 4869px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1629,7 +1639,7 @@ opacity: 0.8;
     left: 1270px;
     top: 4869px;
 
-    font-family: PT Sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
