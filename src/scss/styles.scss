@@ -16,6 +16,11 @@ div{
 
 }
 
+a{
+    color: #FFF;
+    text-decoration: none;
+    background-color: transparent;
+}
 h1{
     position: absolute;
     width: 480px;
@@ -874,9 +879,10 @@ h5{
     background: #FFFFFF;
 }
 .block3{
-    background: #E3E7F2;
+    background: #E5E5E5;
     width: 1920px;
-    height: 700px;
+    height: 1688px;
+    position: absolute;
     left: 0px;
     top: 2800px;
 }
@@ -1541,11 +1547,117 @@ opacity: 0.8;
 .block6{
     display: block;
 }
+
+#help{
+    position: absolute;
+    width: 2000px;
+    height: 414px;
+    top: 4500px;
+    z-index: 4; 
+    left: 370px;;
+    
+
+}
+.col{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    width: 2000px;
+    padding: 6px;
+    display: flex;
+    color: #FFF;
+    opacity: 0.6;
+}
+.col1{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 2000px;
+    display: flex;
+    padding: 10px;
+
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.colom1{
+    width: 280px;
+    height: 20px;
+}
+.colom2{
+    width: 280px;
+    height: 20px;
+}
+.colom3{
+    width: 280px;
+    height: 20px;
+}
+.colom4{
+    width: 280px;
+    height: 20px;
+}
+
+
+
+#protect{
+    position: absolute;
+    width: 280px;
+    height: 16px;
+    left: 370px;
+    top: 4869px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    z-index: 4;
+    opacity: 0.8;
+}
+#pool{
+    z-index: 4;
+    position: absolute;
+    width: 280px;
+    height: 16px;
+    left: 1270px;
+    top: 4869px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
 #img_linlya{
+    z-index: 5;
     position: absolute;
     width: 1180px;
-    height: 0px;
+    height: 2px;
     left: 370px;
-    top: 5000px;
-    z-index: 4;
+    top: 4854px;
+}
+#img_up{
+    height: 12.6px;
+    position: absolute;
+    width: 19.9px;
+    left: 60px;
+    top: 4840px;
+    z-index: 5;
+    opacity: 0.5;
 }
