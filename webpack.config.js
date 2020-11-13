@@ -39,6 +39,7 @@ module.exports = {
         filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, 'dist')
     }, 
+
      optimization: optimization(),
     
      devServer: {
@@ -58,8 +59,11 @@ module.exports = {
         patterns:[
             {
                 from: path.resolve(__dirname, 'src/favicon.ico'),
-                to: path.resolve(__dirname,'dist')
+                to: path.resolve(__dirname,'dist'),
+                from: path.resolve(__dirname, 'src/assets'),
+                to: path.resolve(__dirname,'dist/assets')
             }
+
         ]}),
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
