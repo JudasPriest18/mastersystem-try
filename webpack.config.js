@@ -40,11 +40,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     }, 
      optimization: optimization(),
-    devServer: {
-    port:4200,
-    contentBase: path.resolve(__dirname, "dist"),
-    publicPath: "/*",
-   }, 
+    
+     devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        port: 4200,
+    },
     
     plugins: [
         new HTMLWebpackPlugin({
