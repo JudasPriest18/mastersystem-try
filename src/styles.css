@@ -9925,6 +9925,8 @@ h3 {
 }
 body {
   font-family: "PTSans", sans-serif;
+  width: 100%;
+  max-width: 1920px;
 }
 
 div {
@@ -11407,18 +11409,18 @@ h5 {
 
 #help {
   position: absolute;
-  width: 2000px;
-  height: 414px;
+  width: 1000px;
+  height: 4px;
   top: 4500px;
   z-index: 4;
-  left: 370px;
+  left: 420px;
 }
 
 .col {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  width: 2000px;
+  width: 1000px;
   padding: 6px;
   display: flex;
   color: #FFF;
@@ -11429,7 +11431,7 @@ h5 {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  width: 2000px;
+  width: 1000px;
   display: flex;
   padding: 10px;
   color: #FFFFFF;
@@ -11437,22 +11439,22 @@ h5 {
 }
 
 .colom1 {
-  width: 280px;
-  height: 20px;
+  width: 330px;
+  height: 27px;
 }
 
 .colom2 {
-  width: 280px;
-  height: 20px;
+  width: 330px;
+  height: 27px;
 }
 
 .colom3 {
-  width: 280px;
-  height: 20px;
+  width: 330px;
+  height: 27px;
 }
 
 .colom4 {
-  width: 280px;
+  width: 330px;
   height: 20px;
 }
 
@@ -11509,5 +11511,5 @@ h5 {
   left: 60px;
   top: 4840px;
   z-index: 5;
-  opacity: 0.5;
+  opacity: 0.3;
 }
