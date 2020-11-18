@@ -9965,8 +9965,9 @@ html, body {
 .back {
   background-color: #005ed0 !important;
   box-shadow: inset 10px -13px 30px rgba(51, 51, 51, 0.15);
+  background-blend-mode: multiply;
+  background-image: url(img/img-cover.png) no-repeat center center fixed !important;
   height: 720px;
-  z-index: 1;
 }
 
 #img-cover {
@@ -10093,22 +10094,22 @@ p.term {
   z-index: 0;
 }
 
-.col {
+.u {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   padding: 6px;
   display: flex;
-  color: #FFF;
+  color: #FFF !important;
   opacity: 0.6;
 }
 
-.col1 {
+.u1 {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   display: flex;
-  color: #FFFFFF;
+  color: #ffffff !important;
   opacity: 0.9;
 }
 
@@ -10140,5 +10141,10 @@ p.term {
 @media (max-width: 750px) {
   table {
     font-size: 50%;
+  }
+}
+@media (max-width: 1473) {
+  .menu {
+    width: 50%;
   }
 }
