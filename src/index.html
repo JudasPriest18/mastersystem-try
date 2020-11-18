@@ -1,251 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/favicon.ico" type="image/ico">
     <title>Mastersystem</title>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
 <body>
-    <div class="block">
-        <img src="assets/img-cover.png" class="img-cover" alt="">
-        </div>   
-    </div>
-    <div class="icon">
-      MasterSystem
-    </div>
-    <img src="assets/img-icon.png" class="img-icon" width="25" height="21" alt="">
-   <div class="boton"></div>
-       <a href="#" id="link1">Кейсы</a>
-       <a href="#" id="link2">Особенности</a>
-       <a href="#" id="link3">Контакты</a>
-       <a href="#" class="boton-letters">Вход</a>
-       <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Введите свой E-mail">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <div class="container">
+    <header>
+      <div class="wrapper">
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brad"><img class ="img-icon" src="assets\img-icon.png" alt="">MasterSystem</a>
+                <button  class="navbar-toggler" type="button" data-toggle="collapse" bata-target="#navbarResponsive">
+                    <span  class="navbar-toggler-icon"></span>
+                </button> 
+                <div  class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul  class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Кейсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Особенности</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" id="vhod" class="nav-link">Вход</a>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+        </nav>
+      </div> 
+    </header>
+    <div class="back">
+      <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-8">
+              <h1 class="ter">Mastersystem <br> создавай и управляй <img class="" src="assets/Group 21 (1).svg"></h1>
+              <p class="term">Mastersystem - это профессиональная система управления веб-проектами, универсальный программный продукт для создания, 
+              поддержки и успешного развития</p> 
+              <div class="input-group mb-3 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                  <input type="text" class="form-control" placeholder="Введите свой E-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Попробуйте бесплатно</button>
+                  </div>
+              </div> 
+          </div>
         </div>
-        <button type="submit" class="btn btn-default">  
-        </button>
-      </form>
-      <p class="try">Попробуйте бесплатно</p>
-      <div class="enter">
-        Уже используете CRM? 
-    </div>
-        <a href="#" class="enter1">Войти</a>
-        <img src="assets/Shape.svg" class="img-table" width="17.49" height="10.92" alt="">
-        <img src="assets/Rectangle 8.4.svg" id="img-string" alt="">
-        <img src="assets/Rectangle 8.4.svg" id="img-string3" alt="">
-        <table id="table1">
-            <tr>
-              <th class="grey">ID</th>
-              <th class="black">Дата и время</th>
-              <th class="grey">Ссылка</th>
-            </tr>
-            <hr>
-            <tr>
-                <th class="blue"># 10143</th>
-                <th class="black">20.01.2018 10:45</th>
-                <th class="blue">https://profobr27.ru</th>
-              </tr>
-              <tr class="table-active">
-                <th class="blue"># 29432</th>
-            </tr>
-              <tr>
-                <th class="blue"># 34312</th>
-              </tr>        
-              <tr>
-                <th class="blue"># 43213</th>
-              </tr>
-          </table>
-          <img src="assets/Rectangle 8.4.svg" id="img-string4" alt="">
-          <img src="assets/Rectangle 8.4.svg" id="img-string7" alt="">
-          <table id="table2">
-            <tr>
-              <th class="grey"><div class="form-check">
-                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+      </div>
+  <div class="back2">
+      <div class="container-fluid">
+          <div class="row text-center">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                  <img src="assets/Vector.svg" id="img-mast" alt="">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                      <h2>Система управления сайтами</h2>
+                      <p class="d-md-none">Mastersystem лучший выбор для вашего сайта</p>
+                  </div>
               </div>
-            </th>
-              <th class="grey">ID</th>
-              <th class="grey">Название</th>
-            </tr>
-            <tr>
-                <th class="grey"><div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+          </div> 
+      </div> 
+      <div class="container">
+         <div class="row text-center padding dvavryad">
+             <div class="col-xs-6 col-sm-6 col-md-3">
+              <img src="assets/thought.svg" class="img_desing" alt="">
+              <h3 class="desing">Интуитивный дизайн</h3>
+              <p>Мы подумали за вас</p>
+              </div>
+             <div class="col-xs-6 col-sm-6 col-md-3">
+              
+              <img src="assets/tree.svg" class="img_desing" alt="">
+              <h3 class="desing">Высокая стабильность</h3>
+              <p>Никакого дискомфорта</p>
+              </div>
+             <div class="col-xs-6 col-sm-6 col-md-3">
+              
+              <img src="assets/deal.svg" class="img_desing" alt="">
+              <h3 class="desing">Хорошая репутация</h3>
+              <p>Нас выбирают лучшие</p>
+              </div>
+             <div class="col-xs-6 col-sm-6 col-md-3">
+              <img src="assets/award.svg" class="img_desing" alt="">
+              <h3 class="desing">Лучшая стоимость</h3>
+              <p>Лучшее за свои деньги</p>
+              </div>
+         </div>
+      </div>
+  </div>
+    <div class="container-fluid">
+        <div class="row text-center padding">
+            <div class="offset-lg-1 col-lg-5">
+              <img src="assets/blog.svg" id="img_blog">
+              <h2>Многосайтовость</h2>
+              <p>Мы создали для вас систему, которая упрощает поддержку сайтов. Теперь вам не придется переходить по разным системам.
+              Все в одном месте!
+              <br><br>
+              С помощью специального меню вы можете добавить или выбрать уже добавленный проект. И сразу же перейти к управлению контентом нужного проекта.</p>
+              <br>
+              <a href="#" class="btn boton1">Подключить</a>
+          </div>
+          <div class="col-lg-6">
+              <br>
+              <img src="assets/Rectangle 8.png" id="img_site">
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row text-center padding">
+          <div class="col-lg-6">
+            <img src="assets/Rectangle 2.1.png" id="img_vhod">
+          </div>
+        <div class="col-lg-6">
+            <br>
+            <img src="assets/Group (1).svg" id="img_blog">
+            <h2>Разграничение доступа</h2>
+            <p>Мы сделали систему ограничения доступа для различных пользователей. 
+              Что упрощает организацию работы с сайтом и позволяет эффективно управлять контентом.</p>
+              <br>
+            <a href="#" class="btn boton1">Подключить</a>
+        </div>
+      </div>
+  </div> 
+<div class="back3">
+  <div class="container-fluid">
+      <div class="row text-center padding">
+          <div class="offset-lg-1 col-lg-5">
+              <h2>Идейные соображения</h2>
+            <p>Решения, которые принимала наша команда, основаны на потребностях и желаниях конечного пользователя.
+               Благодаря им мы создали уникальную систему позволяющею эффективно управлять вашим бизнесом.</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/prototyping.svg" class="">
+              <h4>Глубокая проработка</h4>
+              <p>Мы тщательно продумали UX и UI</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/cpu (1).svg" class="">
+              <h4>Новейшие технологии</h4>
+              <p>Только новейшие и проверенные технологии</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/hired.svg" class="">
+              <h4>Интуитивность</h4>
+              <p>Интуитивное управление сайтом</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 offset-lg-6 col-lg-2">
+              <img src="assets/computer.svg" class="">
+              <h4>Уникальный дизайн</h4>
+              <p>Самобытный дизайн от специалистов</p>
+           </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/shield (1).svg" class="">
+              <h4>Современная защита</h4>
+              <p>Специалисты продумали защиту ваших данных</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/conversation.svg" class="">
+              <h4>Быстрая поддержка</h4>
+              <p>Обширный FAQ и система поддержки пользователей</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 offset-lg-6 col-lg-2">
+              <img src="assets/paint-palette.svg" class="">
+              <h4>Иллюстрации</h4>
+              <p>Красивые иллюстрации, приятные глазу</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/binary-code.svg" class="">
+              <h4>Лучшый код</h4>
+              <p>Оптимизированный и качественный код</p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+              <img src="assets/training.svg" class="">
+              <h4>Обучение</h4>
+              <p>Наличие обучение работы с системой</p>
+          </div>
+      </div>
+    </div>
+    <div class="block4">
+      <div class="container">
+          <div class="row text-center citata">
+              <div class="col-lg-12">
+              <img src="assets/quote.svg">
+              </div>
+              <div class="col-lg-12">
+              <p>Лучшая система, которой мы когда-либо пользовались. Прекрасная оптимизация и легкое управление контентом</p>
+              </div>
+              <div class="col-lg-12">
+              <p>Иванов Иван</p> 
+              </div>
+              <div class="col-lg-12">
+              <p>Батискаф</p>
+              </div>
+              <div class="col-lg-12">
+              <img src="assets/Group 25.png" id="img_gorDot">
+              </div>
+              <div class="col-lg-12">
+              <hr>
+              <p>blog.btskf.ru</p>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+          <div class="col-lg-12">
+            <img src="assets/Vector (1).png" id="img_vector2">
+          </div>
+          <div class="col-lg-12">
+            <h2>Начинай прямо сейчас</h2>
+            <p>Пробный период бесплатно</p>
+            <a href="#" class="btn boton1">Подключить</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <img id="img-cover1" src="assets/img-cover.png">
+  <div class="back5">
+      <footer class="container">
+          <div class="row text-center">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <table class="table table-borderless">
+                      <thead>
+                        <tr>
+                          <th scope="col">Продукт</th>
+                          <th scope="col">Помощь</th>
+                          <th scope="col">Документация</th>
+                          <th scope="col">Контакты</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Личный кабинет</td>
+                          <td>Как подключить</td>
+                          <td>@Пользовательское соглашение</td>
+                          <td>@+7 (999) 888-35-35</td>
+                        </tr>
+                        <tr>
+                          <td>Регистрация</td>
+                          <td>Часто задаваемые вопросы</td>
+                          <td>Политика конфедициальности</td>
+                          <td>support@hipool.tech</td>
+                        </tr>
+                        <tr>
+                          <td>Наши клиенты</td>
+                          <td>Поддержка</td>
+                          <td>Политика использования</td>
+                          <td>Россия, Хабаровск,</td>
+                        </tr>
+                        <tr>
+                          <td>Контакты</td>
+                          <td>Функции</td>
+                          <td>Условия обслуживания</td>
+                          <td>ул. Павловича 13, офис 363</td>
+                        </tr>
+                        <tr>
+                          <td>Блог</td>
+                          <td>Документация</td>
+                          <td>Инструкция</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+          </div>
+            <div class="row text-left">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
+                    <hr>
+                      © 2019 Poll. Все права защищены. Разработанно командой Pool
                   </div>
-                </th>
-                <th class="grey">#1</th>
-                <th class="blue">Основное меню Портал</th>
-              </tr>
-              <tr class="table-active">
-                <th class="grey"><div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
-                  </div>
-                </th>
-                <th class="grey">#2</th>
-                <th class="blue">Меню образовательных организаций</th>
-              </tr>
-              <tr>
-                <th class="grey"><div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
-                  </div>
-                </th>
-                <th class="grey">#3</th>
-                <th class="blue">Меню внутренних разд</th>
-              </tr>
-              <tr>
-                <th class="grey"><div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
-                  </div>
-                </th>
-                <th class="grey">#4</th>
-                <th class="blue">Дополнительное меню</th>
-              </tr>
-          </table>
-          <img src="assets/Rectangle 13.svg" id="img-sqere" alt="">
-          <img src="assets/Group 15.svg" id="img-dots" alt="">
-          <div id="change">Изменить</div>
-          <div id="double">Дублировать</div>
-          <div id="delete">Удалить</div>
-          <div class="block2"></div>
-          <img src="assets/Vector.svg" id="img-mast" alt="">
-          <h2>Система управления сайтами</h2>
-        <div id=best_choice>Mastersystem лучший выбор для вашего сайта</div>
-        <img src="assets/thought.svg" id="img_thought" alt="">
-        <img src="assets/tree.svg" id="img_tree" alt="">
-        <img src="assets/deal.svg" id="img_deal" alt="">
-        <img src="assets/award.svg" id="img_award" alt="">
-        <img src="assets/Rectangle 6.svg" id="img_line_vert" alt="">
-        <img src="assets/Rectangle 6.svg" id="img_line_vert1" alt="">
-        <img src="assets/Rectangle 6.svg" id="img_line_vert2" alt="">
-          <div id="desing">Интуитивный дизайн</div>
-          <div id="desing1">Мы подумали за вас</div>
-          <div id="stab">Высокая стабильность</div>
-          <div id="stab1">Никакого дискомфорта</div>
-          <div id="rep">Хорошая репутация</div>
-          <div id="rep1">Нас выбирают лучшие</div>
-          <div id="cost">Лучшая стоимость</div>
-          <div id="cost1">Лучшее за свои деньги</div>
-    <h1>Mastersystem <br> создавай и управляй</h1>
-    <p class="term">Mastersystem - это профессиональная система управления веб-проектами, универсальный программный продукт для создания, поддержки и успешного развития</p>
-    <img src="assets/blog.svg" id="img_blog" alt="">
-<h3>Многосайтовость</h3>
-<p class="many">Мы создали для вас систему, которая упрощает поддержку сайтов. Теперь вам не придется переходить по разным системам. Все в одном месте!<br>
-  <br> С помощью специального меню вы можете добавить или выбрать уже добавленный проект. И сразу же перейти к управлению контентом нужного проекта.</p>
-  <img src="assets/Rectangle 8.png" id="img_site" alt="">
-  <img src="assets/Rectangle 8 (1).png" id="img_site1" alt="">
-  <img src="assets/Rectangle 8.3.png" id="img_auto" alt="">
-  <img src="assets/Group (1).svg" id="img_lock" alt=""> 
-  <button type="submit" class="btn1 btn-default">
-</button>
-<p class="try1">Подключить</p>
-<h4>Разграничение доступа</h4>
-<p id="we">Мы сделали систему ограничения доступа для различных пользователей. Что упрощает организацию работы с сайтом и позволяет эффективно управлять контентом.</p>
-<button type="submit" class="btn2 btn-default">
-</button>
-<p class="try2">Подключить</p>
-<div id="pass"></div>
-<h5>Авторизация</h5>
-<div id="mail">Логин (email)</div>
-<div id="password">Пароль</div>
-<button type="submit" class="btn3 btn-default">
-</button>
-<p class="try3">Войти в админ. панель</p>
-<div id="forgott">Забыли пароль?</div>
-<input type="text" class="form1" placeholder="admin@profobr27.ru">
-<input type="text" class="form2" placeholder="• • • • • • • • • •">
-<div class="block3"></div>
-<div id="idea">Идейные соображения</div>
-<p class="buissnes">Решения, которые принимала наша команда, основаны на потребностях и желаниях конечного пользователя. 
-Благодаря им мы создали уникальную систему позволяющею эффективно управлять вашим бизнесом.</p>
-<img src="assets/prototyping.svg" id="img_prototyping" alt="">
-<img src="assets/cpu (1).svg" id="img_cpu" alt="">
-<img src="assets/hired.svg" id="img_hired" alt="">
-<img src="assets/computer.svg" id="img_computer" alt="">
-<img src="assets/shield (1).svg" id="img_shield" alt="">
-<img src="assets/conversation.svg" id="img_conversation" alt="">
-<img src="assets/paint-palette.svg" id="img_paint-palette" alt="">
-<img src="assets/binary-code.svg" id="img_binary-code" alt="">
-<img src="assets/training.svg" id="img_training" alt="">
-<div id="prototyping">Глубокая проработка</div>
-<div id="cpu">Новейшие технологии</div>
-<div id="hired">Интуитивность</div>
-<div id="computer">Уникальный дизайн</div>
-<div id="shield">Современная защита</div>
-<div id="conversation">Быстрая поддержка</div>
-<div id="paint-palette">Иллюстрации</div>
-<div id="binary-code">Лучшый код</div>
-<div id="training">Обучение</div>
-        <div id="prototyping1">Мы тщательно продумали UX и UI</div>
-        <div id="cpu1">Только новейшие и проверенные технологии</div>
-        <div id="hired1">Интуитивное управление сайтом</div>
-        <div id="computer1">Самобытный дизайн от специалистов</div>
-        <div id="shield1">Специалисты продумали защиту ваших данных</div>
-        <div id="conversation1">Обширный FAQ и система поддержки пользователей</div>
-        <div id="paint-palette1">Красивые иллюстрации, приятные глазу</div>
-        <div id="binary-code1">Оптимизированный и качественный код</div>
-        <div id="training1">Наличие обучение работы с системой</div>
-        <img src="assets/quote.svg" id="img_quote" alt="">
-        <img src="assets/Ellipse.png" id="img_ellipse" alt="">
-<div id="block4"></div>
-<div  id="best">Лучшая система, которой мы когда-либо пользовались. 
-  Прекрасная оптимизация и легкое управление контентом</div>
-  <img src="assets/Group 25.png" id="img_gorDot" alt="">
-<p id="ivan">Иванов Иван</p>
-<p  id="batiscaf">Батискаф</p>
-<img src="assets/Rectangle 6.3.png" id="img_line5" alt="">
-<div id="btskf">blog.btskf.ru</div>
-<img src="assets/Vector (1).png" id="img_vector2" alt="">
-<div id="right_now">Начинай прямо сейчас</div>
-  <div id="free">Пробный период бесплатно</div>
-  <button type="submit" class="btn4 btn-default">
-</button>
-<p class="try4">Подключить</p>
-<table id="help">
-  <tr class="col1">
-    <th class="colom1">Продукт</th>
-    <th class="colom2">Помощь</th>
-    <th class="colom3">Документация</th>
-    <th class="colom4">Контакты</th>
-  </tr>
-  <tr class="col">
-      <td class="colom1"><a class="bottom_down" href="#">Личный кабинет</a></th>
-      <td class="colom2"><a class="bottom_down" href="#">Как подключить</a></th>
-      <td class="colom3"><a class="bottom_down" href="#">Пользовательское соглашение</a></th>
-      <td class="colom4"><a class="bottom_down" href="#">+7 (999) 888-35-35</a></th>
-    </tr>
-    <tr class="col">
-      <td class="colom1"><a class="bottom_down" href="#">Регистрация</a></th>
-      <td class="colom2"><a class="bottom_down" href="#">Часто задаваемые вопросы</a></th>
-      <td class="colom3"><a class="bottom_down" href="#">Политика конфедициальности</a></th>
-      <td class="colom4"><a class="bottom_down" href="#">support@hipool.tech</a></th>
-  </tr>
-    <tr class="col">
-      <td class="colom1"><a class="bottom_down" href="#">Наши клиенты</a></th>
-      <td class="colom2"><a class="bottom_down" href="#">Поддержка</a></th>
-      <td class="colom3"><a class="bottom_down" href="#">Политика использования</a></th>
-      <td class="colom4"><a class="bottom_down" href="#">Россия, Хабаровск,</a></th>
-    </tr>        
-    <tr class="col">
-      <td class="colom1"><a class="bottom_down" href="#">Контакты</a></th>
-      <td class="colom2"><a class="bottom_down" href="#">Функции</a></th>
-      <td class="colom3"><a class="bottom_down" href="#">Условия обслуживания</a></th>
-      <td class="colom4"><a class="bottom_down" href="#">ул. Павловича 13, офис 363</a></th>
-    </tr>
-    <tr class="col">
-      <td class="colom1"><a class="bottom_down" href="#">Блог</a></th>
-      <td class="colom2"><a class="bottom_down" href="#">Документация</a></th>
-      <td class="colom3"><a class="bottom_down" href="#">Инструкция</a></th>
-      <td class="colom4">  </th>
-    </tr>
-</table>
-<div id="protect">© 2019 Poll. Все права защищены.</div>
-<div id="pool">Разработанно командой Pool</div>
-
-<button type="button"><img src="assets/Vector (2).png" id="img_up" alt=""></button>
-<img src="assets/Vector 6.2.png" id="img_linlya" alt="">
-<div class="block6">
-  <img src="assets/img-cover.png" class="img-cover1" alt="">
-  </div>   
+              </div>
+      </div> 
+      </footer>
+  </div>
   </body>
 </html>
