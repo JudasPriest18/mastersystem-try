@@ -10107,6 +10107,19 @@ p {
   position: absolute;
   height: 772px;
 }
+.back .back7 {
+  background-color: #005ed0 !important;
+  box-shadow: inset 10px -13px 30px rgba(51, 51, 51, 0.15);
+  background-blend-mode: multiply;
+  height: 772px;
+  z-index: 1;
+}
+.back .back7 .img_cover3 {
+  z-index: 0;
+  width: 100%;
+  position: absolute;
+  height: 320px;
+}
 
 .ter {
   font-style: normal;
