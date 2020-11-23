@@ -40,32 +40,34 @@
 </nav>
     </div> 
     <div class="back">
-        <img src="assets/img-cover.png" id="img_cover">
-        <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h1 class="ter">Mastersystem <br> создавай и управляй </h1>
-                <p class="term term1">Mastersystem - это профессиональная система управления веб-проектами, универсальный программный продукт для создания, 
-                поддержки и успешного развития</p>
-                <div class="row kek">
-                <div class="input-group mb-3 col-md-11">
-                    <input type="text" class="form-control" placeholder="Введите свой E-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <a href="#" class="btn btn3 email">Попробуйте бесплатно</a> 
-                      </div>
-                    </div> 
-                    <div class="col-md-12">
-                      <p id="crm">Уже используете CRM? <a href="#" id="crm1">Войти</a></p>
-                    </div> 
-                  </div> 
-          </div>  
-            <div class="col-md-6">
-                    <img class="d-none d-xl-block menu" src="assets/Group 21 (1).svg">
-                </div>
-
+      <img src="assets/img-cover.png" id="img_cover">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+            <div class="row">
+              <div class="col-12">
+             <h1 class="ter">Mastersystem <br> создавай и управляй </h1>
+              <p class="term term1">Mastersystem - это профессиональная система управления веб-проектами, универсальный программный продукт для создания, 
+              поддержки и успешного развития</p>
+              </div>
+                <div class="col-lg-12 col-12">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Введите свой E-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <a href="#" class="btn btn3 email">Попробуйте бесплатно</a>
+              </div>
             </div>
+          </div>
+            <div class="col-md-12">
+              <p id="crm">Уже используете CRM? <a href="#" id="crm1">Войти</a></p>
+            </div>
+          </div> 
+          <div class="col-6 d-none d-xl-block">
+          <img class="menu" src="assets/Group 21 (1).svg">
         </div>
-    </div>        
+        </div> 
+      </div>      
+    </div>
+    <section>
     <div class="back2">
         <div class="container-fluid">
             <div class="row text-center">
@@ -106,7 +108,9 @@
            </div>
         </div>
     </div>
-      <div class="container">
+  </section>
+    <section>
+  <div class="container">
           <div class="row">
               <div class="col-lg-6 padding">
                 <img src="assets/blog.svg" id="img_blog">
@@ -125,9 +129,11 @@
             </div>
           </div>
       </div>
-      <div class="container kek">
-        <div class="row">
-          <div class="col-lg-6 padding lock">
+    </section>
+     <section>
+    <div class="container kek">
+        <div class="row hvatit">
+          <div class="col-lg-4 offset-lg-2 padding lock">
             <img src="assets/Group (1).svg" id="img_blog">
             <h2 class="bigger7">Разграничение доступа</h2>
             <p class="bigger">Мы сделали систему ограничения доступа для различных пользователей. 
@@ -136,30 +142,31 @@
             <a href="#" class="btn boton1">Подключить</a>
             <br>
           </div>
-          <div class="order-lg-first col-lg-6">
-            <img src="assets/Rectangle 8.3.svg" id="img_vhod">
-          </div>
-          <div class="order-lg-first col-lg-4">
-            <div class="back9">
-              <div class="pad">
-              <h4 class="avorizciya">Авторизация</h4>
-              <form>
-                <div class="form-group">
-                  <label class="logpass" for="exampleInputEmail1">Email</label>
-                  <input type="email" class="form-control logpass1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="admin@profobr27.ru">
-                </div>
-                <div class="form-group">
-                  <label class="logpass" for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control logpass1" id="exampleInputPassword1" placeholder="• • • • • • • • • •">
-                </div>
-                <button type="submit" class="btn btn-primary forgot">Войти в админ. панел</button>
-              </form>
-              <a href="#" class="forgot">Забыли пароль?</a> 
-            </div>
-            </div>
-          </div>
+        <div class="col d-block d-lg-none d-xl-none">
+          <img src="assets/Rectangle 2.1.png" id="img_vhod">
         </div>
+          <div class="order-lg-first col-2 d-none d-lg-block">
+              <img src="assets/Rectangle 8.3.svg" id="img_vhod1">
+            </div>
+              <div class="order-lg-first col-4 d-none d-lg-block">
+              <div class="back9">
+              <div class="pad">
+              <h5 class="avorizciya">Авторизация</h5>
+              <div class="logpass">Логин (email)</div>
+              <input type="text" class="logpass1" placeholder="admin@profobr27.ru">
+              <div class="logpass">Пароль</div>
+              <input type="text" class="logpass1" placeholder="• • • • • • • • • •">
+              <button type="submit" class="btn9 btn">
+                <p class="try3">Войти в админ. панель</p>
+              </button>
+              <div id="forgot">Забыли пароль?</div>
+            </div>
+            </div>
+          </div>
     </div> 
+  </div>
+</section>
+  <section>
 <div class="back3">
     <div class="container">
         <div class="row">
@@ -219,7 +226,9 @@
                   </div>
             </div>
       </div>
-        <div class="container">
+    </section>
+     <section>
+    <div class="container">
             <div class="block4">
             <div class="row text-center citata">
                 <div class="col-lg-12 covichki">
@@ -258,6 +267,7 @@
             </div>
         </div>
       </div>
+    </section>
       <img class="img-cover2 d-none d-md-block" src="assets/img-cover.png">
       <div class="back5 d-none d-md-block">
           <footer class="container">
