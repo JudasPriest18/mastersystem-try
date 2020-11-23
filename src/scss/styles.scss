@@ -556,14 +556,9 @@ td{
     line-height: 15px;
     color: #333333;
     font-style:'Cicle-Regular', sans-serif;
-    text-align: left !important;
+    text-align: left !important;  
+}
 
-   
-   
-}
-.input-group{
-    margin-left: -15px;
-}
 #img_blog{
     padding-bottom: 49px;
 }
@@ -704,6 +699,32 @@ td{
     box-sizing: border-box;
     padding: 50px;
 }
+@media (max-width:498px){
+    .container{
+      
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+}
+@media (max-width:498px){
+    .btn3{
+   width: 140px;
+   font-size: 12px;
+   line-height: 16px;
+   height: 40px;
+    }
+}
+@media (max-width:498px){
+    .form-control{
+        width: 150px;
+        height: 40px;
+
+    }
+}
+
+
 .container-fluid{
     position: relative;
     width: 100%;

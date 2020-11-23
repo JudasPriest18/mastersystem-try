@@ -10487,10 +10487,6 @@ td {
   text-align: left !important;
 }
 
-.input-group {
-  margin-left: -15px;
-}
-
 #img_blog {
   padding-bottom: 49px;
 }
@@ -10624,6 +10620,28 @@ td {
   padding: 50px;
 }
 
+@media (max-width: 498px) {
+  .container {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+}
+@media (max-width: 498px) {
+  .btn3 {
+    width: 140px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 40px;
+  }
+}
+@media (max-width: 498px) {
+  .form-control {
+    width: 150px;
+    height: 40px;
+  }
+}
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   position: relative;
   width: 100%;
