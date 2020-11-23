@@ -10285,9 +10285,10 @@ td {
     font-size: 5px;
   }
 }
-.back6 {
+.back9 {
   background: #FFFFFF;
   border-radius: 8px;
+  z-index: 2;
 }
 
 #img_vector2 {
@@ -10394,6 +10395,67 @@ td {
   background: #FFFFFF;
   border-radius: 8px;
   z-index: 2;
+  box-shadow: -2px -1px 9px rgba(0, 0, 0, 0.07);
+  width: 393px;
+  height: 458px;
+  text-align: center;
+  align-items: center;
+}
+
+.pad {
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 67px;
+  padding-right: 26px;
+  padding-left: 26px;
+}
+
+.btn4 {
+  background: #005ED0;
+  box-shadow: 0px 3px 6px rgba(0, 94, 208, 0.3);
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  width: 340px;
+  height: 40px;
+}
+
+.avorizciya {
+  text-align: center;
+  font-style: "Cicle-Regular", sans-serif;
+  font-size: 40px;
+  line-height: 59px;
+  color: #333333;
+  padding-bottom: 42px;
+  padding-top: 56px;
+}
+
+.forgot {
+  font-size: 14px;
+  line-height: 20px;
+  font-style: "Cicle-Regular", sans-serif !important;
+  color: #005ED0 !important;
+  text-align: center !important;
+}
+
+.logpass1 {
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  width: 237px;
+  height: 59px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.logpass {
+  font-size: 10px;
+  line-height: 15px;
+  color: #333333;
+  font-style: "Cicle-Regular", sans-serif;
+  text-align: left !important;
 }
 
 .input-group {
@@ -10508,6 +10570,11 @@ td {
   }
 }
 @media (max-width: 572px) {
+  .desing1 {
+    text-align: center !important;
+  }
+}
+@media (max-width: 990px) {
   .desing1 {
     text-align: center !important;
   }
