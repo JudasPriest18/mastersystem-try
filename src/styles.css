@@ -10062,15 +10062,10 @@ p {
 }
 
 .vhod {
-  width: 88px;
-  height: 32px;
-  left: 1462px;
-  top: 28px !important;
-  border: 1px solid #FFFFFF;
-  text-align: center;
   box-sizing: border-box;
   border-radius: 4px;
-  padding-bottom: 6px;
+  border: 1px solid #FFFFFF;
+  padding: 6px 27px 6px !important;
 }
 
 .img-icon {
@@ -10227,6 +10222,16 @@ p.term {
 @media (max-width: 990px) {
   #img_vhod {
     width: 100%;
+  }
+}
+@media (max-width: 1840px) {
+  .menu {
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1198px) {
+  .menu {
+    padding-top: 180px;
   }
 }
 .back3 {
