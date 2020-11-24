@@ -9941,6 +9941,7 @@ a .btn {
   line-height: 19px;
   align-items: center;
   text-align: center;
+  transition: 0.3s;
   color: #FFFFFF;
 }
 
@@ -10069,7 +10070,7 @@ p {
   text-align: center;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-bottom: 7px;
+  padding-bottom: 6px;
 }
 
 .img-icon {
@@ -10160,6 +10161,7 @@ p.term {
   box-shadow: 0px 2px 10px rgba(255, 97, 0, 0.2);
   border-radius: 0px 8px 8px 0px !important;
   height: 48px;
+  transition: 0.3s;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -10167,6 +10169,7 @@ p.term {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 14px 20px 14px;
 }
 
 #boton {
@@ -10186,7 +10189,7 @@ p.term {
 
 .back2 {
   background: #f5f5f5;
-  height: 700px;
+  padding-bottom: 205px;
 }
 
 #img-mast {
@@ -10213,6 +10216,7 @@ p.term {
   border-radius: 8px;
   font-style: normal;
   font-weight: bold;
+  padding: 11px 18px 11px;
 }
 
 @media (max-width: 1100px) {
@@ -10440,6 +10444,8 @@ td {
   height: 40px;
   font-style: normal;
   font-weight: bold;
+  transition: 0.3s;
+  padding: 10px 100px 10px;
 }
 
 .try3 {
@@ -10637,6 +10643,7 @@ td {
     font-size: 12px;
     line-height: 16px;
     height: 40px;
+    padding: 9px 11px 10px;
   }
 }
 @media (max-width: 498px) {
