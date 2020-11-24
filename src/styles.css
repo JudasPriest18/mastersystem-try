@@ -9948,6 +9948,7 @@ a .btn {
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 h2 {
@@ -10063,18 +10064,19 @@ p {
   width: 88px;
   height: 32px;
   left: 1462px;
-  top: 28px;
+  top: 28px !important;
   border: 1px solid #FFFFFF;
   text-align: center;
   box-sizing: border-box;
   border-radius: 4px;
+  margin-bottom: 7px;
 }
 
 .img-icon {
   width: 26px;
   height: 22px;
 }
-.img-icon .dread {
+.img-icon .logo {
   font-family: "Cicle-Bold", sans-serif !important;
   font-size: 18px !important;
   line-height: 27px !important;
@@ -10101,6 +10103,7 @@ p {
   font-size: 15px !important;
   line-height: 19px !important;
   color: #FFFFFF !important;
+  z-index: 1;
 }
 
 .back {
@@ -10371,7 +10374,7 @@ td {
   margin-bottom: 159px;
 }
 
-.dread {
+.logo {
   font-family: "Cicle-Regular", sans-serif;
   font-size: 18px;
   line-height: 27px;
@@ -10382,16 +10385,16 @@ td {
   color: #FFFFFF;
 }
 
-#crm {
+.crm {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 19px;
   color: #FFFFFF;
-  text-align: justify;
+  text-align: left;
 }
 
-#crm1 {
+.crm__enter {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -10462,7 +10465,8 @@ td {
   font-style: "Cicle-Bold", sans-serif !important;
   color: #005ED0 !important;
   text-align: center !important;
-  margin-top: 20px;
+  align-items: center !important;
+  margin-top: 20px !important;
 }
 
 .logpass1 {
@@ -10609,7 +10613,6 @@ td {
   .input-group {
     align-items: center !important;
     text-align: center !important;
-    padding-left: 50px;
     height: 40px;
   }
 }
@@ -10640,6 +10643,32 @@ td {
   .form-control {
     width: 150px;
     height: 40px;
+    text-align: left;
+  }
+}
+@media (max-width: 990px) {
+  .term1 {
+    text-align: center !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 990px) {
+  .ter {
+    text-align: center !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 990px) {
+  .input-group {
+    align-items: center !important;
+    text-align: center !important;
+    height: 40px;
+  }
+}
+@media (max-width: 990px) {
+  .crm {
+    text-align: center !important;
+    align-items: center !important;
   }
 }
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
@@ -10659,7 +10688,7 @@ td {
   }
 }
 @media (max-width: 478px) {
-  .kek {
+  .none-padding {
     padding: 0px;
   }
 }

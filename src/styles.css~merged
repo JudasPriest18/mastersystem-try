@@ -10074,7 +10074,7 @@ p {
   width: 26px;
   height: 22px;
 }
-.img-icon .dread {
+.img-icon .logo {
   font-family: "Cicle-Bold", sans-serif !important;
   font-size: 18px !important;
   line-height: 27px !important;
@@ -10371,7 +10371,7 @@ td {
   margin-bottom: 159px;
 }
 
-.dread {
+.logo {
   font-family: "Cicle-Regular", sans-serif;
   font-size: 18px;
   line-height: 27px;
