@@ -9987,7 +9987,7 @@ p {
   opacity: 0.7;
 }
 
-.bigger7 {
+.none-padding__title {
   text-align: left !important;
 }
 
@@ -10073,6 +10073,7 @@ p {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+  padding-left: 5px;
   color: #FFFFFF !important;
 }
 
@@ -10335,7 +10336,7 @@ td {
   opacity: 0.8;
 }
 
-.syst_liniya {
+.padding__board {
   position: absolute;
   width: 1px;
   height: 186px;
