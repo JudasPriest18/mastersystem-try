@@ -10072,16 +10072,9 @@ p {
   width: 26px;
   height: 22px;
 }
-.img-icon .logo {
-  font-family: "Cicle-Bold", sans-serif !important;
-  font-size: 18px !important;
-  line-height: 27px !important;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  margin-left: 6.5px;
-  color: #FFFFFF !important;
+
+.input-group {
+  padding-top: 40px !important;
 }
 
 .wrapper {
@@ -10143,6 +10136,7 @@ p.term {
   color: #FFFFFF;
   opacity: 0.7;
   text-align: left;
+  padding-top: 15px;
 }
 
 .form-control {
@@ -10315,7 +10309,7 @@ td {
   padding-top: 62px;
 }
 
-.covichki {
+.ellipse {
   padding-bottom: 52px;
 }
 
@@ -10335,11 +10329,11 @@ td {
     width: 50%;
   }
 }
-.Ellipse {
+.ellipse__img {
   margin-right: -10px;
 }
 
-.Ellipse1 {
+.ellipse__img1 {
   margin-left: -28px;
 }
 
@@ -10681,6 +10675,7 @@ td {
   .crm {
     text-align: center !important;
     align-items: center !important;
+    padding-top: 50px;
   }
 }
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
